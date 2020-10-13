@@ -15,7 +15,7 @@ Dotfiles are meant to be different. What suits me well definitely won't be perfe
 
 Open a terminal and follow along!
 
-1. Clone this repository: `git clone https://github.com/digitallymarked/dorfiles`
+1. Clone this repository: `git clone https://github.com/digitallymarked/dotfiles`
 2. CD into the folder: `cd dotfiles`
 3. Make [symlinks](https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/) for the files: `ln -sv ~/Dev/dotfiles/.zshrc ~`
 4. Restart your terminal or run `source .zshrc`

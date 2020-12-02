@@ -114,11 +114,11 @@ alias install-esprit="exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.co
 "
 alias ni="npm install"
 alias ec="echo symlink broken but still working"
+alias adb="/Users/mmarkov/Library/Android/sdk/platform-tools/adb"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/mmarkov/Perforce:$PATH"
-export PATH="/Users/mmarkov/Library/Android/sdk/platform-tools/adb:$PATH"
 
 

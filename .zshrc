@@ -110,13 +110,13 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias sz="source .zshrc"
 alias cz="code ~/Dev/dotfiles/.zshrc"
-alias ch="code ~/Dev/dotfiles/.hyper.js"
 alias c="code ."
 alias install-esprit="exec 3<&1;bash <&3 <(curl https://raw.githubusercontent.com/digitallymarked/eslint-prettier-airbnb-react/master/eslint-prettier-config.sh 2> /dev/null)
 "
 alias ni="npm install"
 alias ec="echo symlink broken but still working"
 alias adb="/Users/mmarkov/Library/Android/sdk/platform-tools/adb"
+alias tm="/Applications/GOG/run_bepinex.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
